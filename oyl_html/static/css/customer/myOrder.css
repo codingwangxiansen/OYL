@@ -1,0 +1,372 @@
+#orderInfo{
+    background: #ffffff;
+}
+
+#orderRequest{
+    background: #ffffff none repeat scroll 0 0;
+    margin-top: 15px;
+}
+
+#companyInfo{
+    background: #ffffff none repeat scroll 0 0;
+    margin-top: 15px;
+}
+
+#orderInfo .info{
+    padding-top: 2%;
+}
+
+#orderInfo .info h4{
+    margin-left: 60px;
+}
+
+#orderInfo .info img{
+    float: right;
+}
+
+#orderInfo .littleTitle{
+    font-size: 14px;
+    margin-top: 1%;
+    color: #a5a5a5;
+}
+
+#orderInfo .moneyNum{
+    font-size: 16px;
+    margin-left: 60px;
+    color: #a5a5a5;
+}
+
+#orderInfo .moneyTxt{
+    margin-left: 10px;
+}
+
+#orderInfo .datePart{
+    margin-bottom: 1%;
+    margin-left: 75px;
+    margin-top: 1%;
+    color: #a5a5a5;
+}
+
+#orderInfo .orderFlow{
+    border-top: 1px dashed #f1f1f1;
+    margin-left: 60px;
+    width: 1030px;
+}
+
+#orderInfo ul li{
+    float: left;
+    font-size: 14px;
+    width: 16%;
+}
+
+#orderInfo ul li a{
+    display: inline-block;
+    color: #ffffff;
+    background: #bfbfbf;
+    border-radius: 50px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    text-align: center;
+    width: 25px;
+    margin-right: 10px;
+}
+
+#orderInfo ul li.actived a{
+    background: #6bc035;
+}
+
+#orderInfo ul li.actived{
+    color: #6bc035;
+}
+
+#orderInfo ul li.selected a{
+    background: #b5df9a;
+}
+
+#orderInfo ul li.selected{
+    color: #b5df9a;
+}
+
+#orderInfo .nextIcon{
+    margin-left: 18%;
+}
+
+#orderInfo .flowPart{
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+
+.topPart{
+    margin-top: 2%;
+}
+
+.detailInfo{
+    margin-left: 2%;
+}
+
+#orderRequest{
+    font-size: 14px;
+}
+
+#orderRequest p{
+    margin-left: 20px;
+}
+
+#companyInfo{
+    font-size: 14px;
+}
+
+#companyInfo p{
+    margin-left: 20px;
+}
+
+#offer{
+    background: #ffffff;
+}
+
+#offer .headRow{
+    margin-top: 4%;
+}
+
+#offer h4{
+    margin-bottom: 2%;
+    margin-left: 6%;
+}
+
+#offer #offerLeft{
+    float: left;
+    width: 50%;
+    border-right: 1px solid #cdcdcd;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+#offer #offerLeft>div{
+    margin-left: 8%;
+}
+
+#offer #offerRight{
+    float: left;
+    margin-top: 1.5%;
+}
+
+#offer #offerRight>div{
+    margin-left: 8%;
+}
+
+#offer .list p{
+    margin-left: 4%;
+}
+
+#requireDetail{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#requireDetail th{
+    font-weight: bold;
+    width: 33.333%;
+}
+
+#offer .first{
+    text-align: left;
+}
+
+#offer .second{
+    text-align: center;
+}
+
+#offer .third{
+    text-align: right;
+}
+
+#requireDetail td{
+    width: 33.333%;
+}
+
+#offer .tablePart{
+    background: #ffffff;
+    margin-top: 1%;
+}
+
+#requireDetail tr{
+    height: 40px;
+}
+
+#requireDetail thead tr{
+    border-bottom: solid #d8d8d8;
+}
+
+#requireDetail tbody tr{
+    border-bottom: dashed 1px #d8d8d8;
+}
+
+#offer .agreeBtn{
+    border-radius: 20px;
+    background:#000000;
+    color: #ffffff;
+    height: 35px;
+    width: 20%;
+}
+
+#offer .thinkBtn{
+    border-radius: 20px;
+    border: #000000 solid 1px;
+    background: #ffffff;
+    height: 35px;
+    width: 20%;
+}
+
+.orderDetail #myTab>li a{
+    font-size: 16px;
+    padding-top: 10%;
+    color: #555;
+    background: -webkit-gradient(linear, 0 0, 0 50%, from(#f8f8f8), to(#ededed )); /** Chrome Safari **/
+    background: -moz-linear-gradient(top, #f8f8f8, #ededed ); /** FireFox **/
+    background: -o-linear-gradient(top, #f8f8f8, #ededed );  /** Opear **/
+    background: -ms-linear-gradient(#f8f8f8 0%,#ededed  100%);  /** IE9 IE10 **/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8',endColorstr='#ededed ',grandientType=1); /** IE7 **/
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8',endColorstr='#ededed ',grandientType=1); /** IE8 **/
+}
+
+.orderDetail #myTab>li{
+    margin-right: 0.2%;
+    width: 10%;
+    text-align: center;
+}
+
+.orderDetail #myTab li.active a {
+    background: #ffffff none repeat scroll 0 0;
+}
+
+
+.projectDetail {
+    background: #ffffff;
+    padding: 15px 60px;
+    position: relative;
+    z-index: 1;
+}
+.projectDetail .title {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+.projectDetail .ctrl {
+    position: absolute;
+    z-index: 1;
+    right: 60px;
+    top: 30px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.projectDetail .ctrl a,
+.projectDetail .ctrl a:link,
+.projectDetail .ctrl a:focus {
+    color: #9e9e9e;
+}
+.projectDetail .ctrl a i {
+    font-size: 18px;
+    margin-left: 10px;
+}
+.projectDetail .content {
+    line-height: 25px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.projectDetail .content img {
+    max-width: 100%;
+}
+
+#contract{
+    background: #ffffff;
+    font-size: 16px;
+}
+
+#contract .txtLeft{
+    float: left;
+    width: 13%;
+}
+
+#contract .txtRight{
+    float: right;
+    width: 87%;
+}
+
+#contract .contractTitle{
+    text-align: center;
+    margin-top:6%;
+    margin-bottom: 8%;
+}
+
+#contract .namePart{
+    font-size: 16px;
+    width: 92%;
+    margin-left: 4%;
+    border-bottom: 1px solid;
+}
+
+#contract .nameLeft{
+    margin-left: 2%;
+}
+
+#contract .nameRight{
+    float: right;
+    margin-right: 2%;
+}
+
+#contract .contractInfo{
+    margin-left: 9%;
+    width: 82%;
+}
+
+#contract h3{
+    margin-left: 0;
+    margin-top: 6%;
+}
+
+#table1{
+    width: 90%;
+    margin-left: 5%;
+}
+
+#table1 table{
+    margin-top: 2%;
+}
+
+#table2{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#contract table{
+    width: 100%;
+}
+
+#contract table .tableLeft{
+    margin-left: 10%;
+}
+
+#contract table .tableRight{
+    margin-right: 10%;
+    float: right;
+}
+
+#contract table thead{
+    border-bottom: solid #d8d8d8;
+}
+
+#contract table tbody tr{
+    height: 40px;
+    border-bottom: dashed 1px #d8d8d8;
+}
+
+#contract .agreeBtn{
+    border-radius: 20px;
+    background:#000000;
+    color: #ffffff;
+    height: 35px;
+    width: 20%;
+}

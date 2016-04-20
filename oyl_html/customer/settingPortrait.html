@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>账号设置</title>
+    <link href="../static/ace/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../static/ace/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../static/ace/css/ace.min.css" />
+    <link rel="stylesheet" href="../static/ace/css/ace-rtl.min.css" />
+    <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/contentCommon.css">
+    <link rel="stylesheet" href="../static/css/customer/userSetting.css">
+</head>
+<body>
+<header>
+    <div id="headPart">
+        <div class="headerTop">
+            <div class="container">
+                <P>欢迎来到哦引力，开始您的品牌之路！</P>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <div class="container">
+                <div id="messageAlert">
+                    <img src="../static/img/message.png">
+                    <div id="messageNum">2</div>
+                </div>
+                <div class="navbar-header">
+                    <img src="../static/img/logoWhite.png"><span>哦引力</span>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">消息中心</a></li>
+                        <li><a href="#">财务管理</a></li>
+                        <li  class="active"><a href="#">账号设置</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portraitPart">
+        <img src="../static/img/portrait.png">
+    </div>
+    <div id="userName">
+        leo刘朝
+    </div>
+</header>
+<section>
+    <div class="container">
+        <div class="row" id="center">
+            <h3>>  账号设置</h3>
+            <div class="navLeft">
+                <ul>
+                    <li><a>个人设置<span style="float: right"> <b class="arrow icon-angle-down"></b></span></a></li>
+                    <li><a>基本信息</a></li>
+                    <li class="active"><a>设置头像</a></li>
+                    <li><a>账号安全<span style="float: right"> > </span></a></li>
+                    <li><a>财务管理<span style="float: right"> > </span></a></li>
+                    <li><a>合同管理<span style="float: right"> > </span></a></li>
+                </ul>
+            </div>
+            <div class="contentRight">
+                <h4>设置头像</h4>
+                <hr>
+                <div class="col-md-12 textPart">
+                    <h5>上传头像</h5>
+                    <input type="file" name="uploadPortrait" id="file_upload"/>
+                    <p>仅支持JPG、GIF、PNG格式，图片小于5MB（使用高质量图片，可生成高清头像）</p>
+                </div>
+                <div class="col-md-12 imgPart">
+                    <div id="portraitLeft">
+                        <div id="imgContent">
+                            <div id="settingPortrait">
+                                <img src="../static/img/myportrait.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="portraitRight">
+                        <div id="showPart">
+                            <div id="bigPart">
+                                <img class="img-responsive" src="../static/img/myportrait.jpg">
+                                <p>大头像 150*150像素</p>
+                            </div>
+                            <div id="middlePart">
+                                <img class="img-responsive" src="../static/img/myportrait.jpg">
+                                <p>中头像</p>
+                            </div>
+                            <div id="smallPart">
+                                <img class="img-responsive" src="../static/img/myportrait.jpg">
+                                <p>小头像</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 btnPart">
+                    <button class="savePortrait">保存头像</button>
+                    <button class="reChoose">重新选择</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footBar">
+        <div class="footBarPart1"></div>
+        <div class="footBarPart2"></div>
+    </div>
+    <div class="foot-brand">
+        <div class="container">
+            <div class="row">
+                <div class="link-item item1">
+                    <h5><i></i>微信公众号</h5>
+                    <div><img src="../static/img/weixin_code.jpg"></div>
+                </div>
+                <div class="link-item item2">
+                    <h5>关于</h5>
+                    <div>
+                        <ul>
+                            <li><a>哦引力</a></li>
+                            <li><a>加入我们</a></li>
+                            <li><a>联系我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-item item2">
+                    <h5>合作</h5>
+                    <div>
+                        <ul>
+                            <li><a>您是设计师</a></li>
+                            <li><a>您是设计机构</a></li>
+                            <li><a>年商服务</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-item item2">
+                    <h5>声明</h5>
+                    <div>
+                        <ul>
+                            <li><a>作品版权</a></li>
+                            <li><a>免责声明</a></li>
+                            <li><a>服务条款</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-item item2">
+                    <h5>导航</h5>
+                    <div>
+                        <ul>
+                            <li><a>服务项目</a></li>
+                            <li><a>客服中心</a></li>
+                            <li><a>天使用户</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-item item3">
+                    <h5>联系方式</h5>
+                    <div>
+                        <ul>
+                            <li>服务热线：400-666-999</li>
+                            <li>QQ：34969830&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:vip@kppw.com</li>
+                            <li>地址：湖北省武汉市洪山区华工孵化中心9楼</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footBarBottom">
+        <div class="footBarPart1"><p>conpright  2015-2025 oyinli.com 版权所有 鄂ICP备11119999号-19</p></div>
+        <div class="footBarPart2"></div>
+    </div>
+</footer>
+<script src="../static/js/jquery-2.0.3.min.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/js/jquery.uploadify.min.js"></script>
+<script>
+    $('#file_upload').uploadify({
+        'height'        : 27,
+        'width'         : 80,
+        'buttonText'    : '上传头像',
+        'swf'      : '../static/js/uploadify.swf',
+        'uploader' : '/user/ajaxHead',
+        //'formData'   : {'_token':token}, // 设置上传是需要传入的参数
+        'method'          : 'post', // 设置提交的方法
+        'fileObjName' : 'picture',
+        onUploadSuccess:function(file,data,response)
+        {
+            var obj = eval('(' + data + ')');
+            //将图片显示
+            $image.cropper("replace", obj.data.path+"?temp=" + Math.random());
+        },
+    });
+</script>
+</body>
+</html>

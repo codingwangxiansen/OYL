@@ -1,0 +1,158 @@
+.wizard-steps li .title{
+    margin-top: -70px;
+}
+
+.wizard-steps li:first-child::before {
+    left: 0;
+    max-width: 100%;
+}
+
+.wizard-steps li:last-child::before {
+    max-width: 100%;
+    width: 100%;
+}
+
+.wizard-steps li.active::before,.wizard-steps li.active .step {
+    border-color: #d02646;
+}
+
+.wizard-steps li.active .step{
+    background-color:#d02646 ;
+    color: #ffffff;
+}
+
+.right{
+    text-align: right;
+}
+
+.wizard-actions{
+    text-align: center;
+}
+
+.nextBtn{
+    border-radius: 20px;
+    width: 14%;
+    background:#000000;
+    color: #ffffff;
+    font-size: 16px;
+    padding-bottom: 0.6%;
+    padding-top: 0.6%;
+}
+
+.prevBtn{
+    border-radius: 20px;
+    width: 14%;
+    background:#ffffff;
+    color: #d9d9d9;
+    font-size: 16px;
+    padding-bottom: 0.6%;
+    padding-top: 0.6%;
+    border: solid 1px #d9d9d9;
+}
+
+section{
+    background: #ffffff;
+}
+
+#step1>div{
+     margin-top: 2%;
+     border: solid 1px #d4d4d4;
+
+ }
+
+#step1 .headPart{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    text-align: center;
+    border-right: solid 1px #d4d4d4;
+}
+
+#step1 .selectPart{
+    margin-top: 2%;
+}
+
+#step1 .infoPart{
+    margin-top: 2%;
+    color:#e53739 ;
+}
+
+#step1 .selectPart a{
+    color: #666666;
+    margin-left: 4%;
+}
+
+.basicInfo{
+    margin-top: 2%;
+}
+
+#step2>div{
+    border-bottom: solid 1px #d6d6d6;
+}
+
+#step3>div{
+    border-bottom: solid 1px #d6d6d6;
+}
+
+.basicInfo form{
+    width: 70%;
+}
+
+#step2 input[type="text"]{
+    background: #f6f6f6;
+}
+
+#step2 textarea{
+    background: #f6f6f6;
+}
+
+#step2 .infoHead{
+    margin-left: 2%;
+}
+
+#step3 .infoHead{
+    margin-left: 2%;
+}
+
+.chooseStyle button{
+    background: #000000;
+    border-radius: 20px;
+    color: #ffffff;
+    height: 40px;
+    width: 25%;
+}
+
+.chooseStyle a{
+    color: #a5bde3;
+    margin-left: 3%;
+}
+
+#proBackground{
+    background: #f6f6f6;
+}
+
+#proBackground textarea{
+    border:none;
+    border-top: solid 1px #dfdfdf;
+    width: 96%;
+    margin-left: 2%;
+}
+
+#proBackground p{
+    margin-left: 2%;
+    padding-top: 2%;
+}
+
+.accessory a{
+    color: #a5bde3;
+}
+
+.accessory .uplaodPart{
+    background:#f6f6f6 ;
+    border: solid 1px #dfdfdf;
+    text-align: center;
+}
+
+.accessory .uplaodPart div{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}

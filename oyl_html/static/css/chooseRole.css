@@ -1,0 +1,81 @@
+.center{
+    padding-top: 20%;
+}
+
+.iconPart{
+    float: left;
+    width: 5%;
+    margin-left: 5%;
+    margin-top: 13%;
+}
+
+.chooseRolePart{
+    padding-top: 10%;
+}
+
+#userPart{
+    float: left;
+    background: #ffffff;
+    margin-left: 5%;
+    text-align: center;
+    width: 30%;
+    box-shadow: -4px -4px 2px #ccc;
+}
+
+#companyPart{
+    float: left;
+    background: #ffffff;
+    margin-left: 3%;
+    text-align: center;
+    width: 30%;
+}
+
+#contectPart{
+    float: left;
+    margin-left: 3%;
+    margin-top: 15%;
+}
+
+.imgPart{
+    margin-top: 15%;
+}
+
+#companyPart .imgPart{
+    margin-top: 14%;
+}
+
+.btnPart{
+    margin-bottom: 18%;
+    margin-top: 15%;
+}
+
+#publishBtn{
+    background: #000000 none repeat scroll 0 0;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    width: 30%;
+}
+
+#checkInBtn{
+    border: #000000 solid 2px;
+    background: #ffffff;
+    border-radius: 20px;
+    color: #000000;
+    font-size: 15px;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    width: 30%;
+}
+
+.downTxt{
+    text-align:center;
+    padding-top:8%;
+    color:#7c7c7c;
+}
+
+.downTxt a{
+    color:#000000;
+}

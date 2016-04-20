@@ -1,0 +1,53 @@
+header ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 5%;
+}
+
+header .row{
+    padding-top: 3%;
+}
+
+header .imgPart img{
+    float: right;
+}
+
+header .menuPart{
+    margin-top: 7px;
+}
+
+a{
+    cursor: pointer;
+}
+
+header a{
+    color: #353535;
+}
+
+header .loginBtn{
+    background: #000000 none repeat scroll 0 0;
+    border-radius: 20px;
+    color: #ffffff;
+    height: 30px;
+    width: 60px;
+    border: none;
+}
+
+header .registerBtn{
+    background: #ffffff none repeat scroll 0 0;
+    border: solid;
+    border-radius: 20px;
+    height: 30px;
+    width: 90px;
+}
+
+
+footer ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 6%;
+}
+
+footer a{
+    color: #353535;
+}

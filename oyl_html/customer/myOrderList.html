@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的订单</title>
+    <link href="../static/ace/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../static/ace/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../static/ace/css/ace.min.css" />
+    <link rel="stylesheet" href="../static/ace/css/ace-rtl.min.css" />
+    <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/contentCommon.css">
+    <link rel="stylesheet" href="../static/css/customer/userSetting.css">
+    <link rel="stylesheet" href="../static/css/customer/messageCenter.css">
+</head>
+<body>
+<header>
+    <div id="headPart">
+        <div class="headerTop">
+            <div class="container">
+                <P>欢迎来到哦引力，开始您的品牌之路！</P>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <div class="container">
+                <div id="messageAlert">
+                    <img src="../static/img/message.png">
+                    <div id="messageNum">2</div>
+                </div>
+                <div class="navbar-header">
+                    <img src="../static/img/logoWhite.png"><span>哦引力</span>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">我的订单</a></li>
+                        <li  class="active"><a href="#">消息中心</a></li>
+                        <li><a href="#">财务管理</a></li>
+                        <li><a href="#">账号设置</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portraitPart">
+        <img src="../static/img/portrait.png">
+    </div>
+    <div id="userName">
+        leo刘朝
+    </div>
+</header>
+<section>
+    <div class="container">
+        <div class="row orderPage" id="center">
+            <div class="col-md-3"><h3>  我的订单</h3></div>
+            <div class="col-md-8"><select style="margin-top: 3%"><option>最近一个月内</option></select></div>
+            <div class="col-md-1"><a id="sendBtn">发布需求</a></div>
+            <div class="col-md-12">
+                <div class="navLeft">
+                    <ul>
+                        <li><a href="#">订单管理<span style="float: right"> ></span></a></li>
+                        <li><a href="#">草稿</a></li>
+                        <li><a href="#">待处理的订单</a></li>
+                        <li class="active"><a href="#">进行中的订单</a></li>
+                        <li><a href="#">完成的订单</a></li>
+                        <li><a href="#">发布需求</a></li>
+                    </ul>
+                </div>
+                <div class="contentRight">
+                    <div id="orderList">
+                        <div class="orderRow readable row">
+                            <div class="col-md-11 col-md-offset-1 orderPart">
+                                <div class="orderLogo"><img src="../static/img/messageIcon.png"></div>
+                                <div class="orderContent">
+                                    <p>【KEE品牌设计】套餐</p>
+                                    <p><span>发布日期：2016-01-01</span><span>订单号：121212121212</span></p>
+                                </div>
+                                <div class="btnRight"><p>品牌视觉-套餐服务</p><a>[查看详情]</a></div>
+                            </div>
+                            <div class="col-md-11 col-md-offset-1 detailPart">
+                                <div class="orderContent">
+                                    <p>【视觉设计】设计</p>
+                                    <p><span>截止日期：2016-01-01</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="orderRow row">
+                            <div class="col-md-11 col-md-offset-1 orderPart">
+                                <div class="orderLogo"><img src="../static/img/messageIcon.png"></div>
+                                <div class="orderContent">
+                                    <p>【KEE品牌设计】套餐</p>
+                                    <p><span>发布日期：2016-01-01</span><span>订单号：121212121212</span></p>
+                                </div>
+                                <div class="btnRight"><p>品牌视觉-套餐服务</p><a>[查看详情]</a></div>
+                            </div>
+                            <div class="col-md-11 col-md-offset-1 detailPart hidden">
+                                <div class="orderLogo"><img src="../static/img/messageIcon.png"></div>
+                                <div class="orderContent">
+                                    <p>【视觉设计】设计</p>
+                                    <p><span>截止日期：2016-01-01</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="pagination">
+                        <li><a href="#">&laquo;</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">&raquo;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footBar">
+        <div class="footBarPart1"></div>
+        <div class="footBarPart2"></div>
+    </div>
+    <div class="foot-brand">
+        <div class="container">
+            <div class="row">
+                <div class="link-item item1">
+                    <h5><i></i>微信公众号</h5>
+                    <div><img src="../static/img/weixin_code.jpg"></div>
+                </div>
+                <div class="link-item item2">
+                    <h5>关于</h5>
+                    <div>
+                        <ul>
+                            <li><a>哦引力</a></li>
+                            <li><a>加入我们</a></li>
+                            <li><a>联系我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-item item2">
+                    <h5>合作</h5>
+                    <div>
+                        <ul>
+                            <li><a>您是设计师</a></li>
+                            <li><a>您是设计机构</a></li>
+                            <li><a>年商服务</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-item item2">
+                    <h5>声明</h5>
+                    <div>
+                        <ul>
+                            <li><a>作品版权</a></li>
+                            <li><a>免责声明</a></li>
+                            <li><a>服务条款</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-item item2">
+                    <h5>导航</h5>
+                    <div>
+                        <ul>
+                            <li><a>服务项目</a></li>
+                            <li><a>客服中心</a></li>
+                            <li><a>天使用户</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-item item3">
+                    <h5>联系方式</h5>
+                    <div>
+                        <ul>
+                            <li>服务热线：400-666-999</li>
+                            <li>QQ：34969830&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:vip@kppw.com</li>
+                            <li>地址：湖北省武汉市洪山区华工孵化中心9楼</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footBarBottom">
+        <div class="footBarPart1"><p>conpright  2015-2025 oyinli.com 版权所有 鄂ICP备11119999号-19</p></div>
+        <div class="footBarPart2"></div>
+    </div>
+</footer>
+<script src="../static/js/jquery-2.0.3.min.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+</body>
+</html>

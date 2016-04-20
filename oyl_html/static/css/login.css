@@ -1,0 +1,79 @@
+/*��¼ҳ*/
+#loginPart{
+    background: #ffffff;
+}
+
+.loginRow{
+    padding-top: 4%;
+    text-align: center;
+}
+
+.btnRow{
+    padding-top: 8%;
+}
+
+.lastRow{
+    padding-top: 4%;
+    padding-bottom: 8%;
+    text-align: center;
+}
+
+.leftPart{
+    float: left;
+    width: 15%;
+    border-right: 1px solid #d5d5d5;
+    margin-top: 1.5%;
+    text-align: center;
+}
+
+.rightPart{
+    float: left;
+    width: 85%;
+}
+
+.forgetLink{
+    color:#0092ef ;
+}
+
+.userTxt{
+    margin-left: 10%;
+    width: 80%;
+    border: solid 1px #d5d5d5;
+    background-color: #f9f9f9;
+    height: 35px;
+
+}
+
+.passwordTxt{
+    margin-left: 10%;
+    width: 80%;
+    border: solid 1px #d5d5d5;
+    background-color: #f9f9f9;
+    height: 35px;
+    margin-top: 1%;
+}
+
+#loginPart input{
+    border: none;
+    width: 100%;
+    background-color:#f9f9f9 ;
+}
+
+#loginPart h4{
+    padding-left: 5%;
+}
+
+.registerBtn {
+    background: #000000 none repeat scroll 0 0;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 10px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    width: 100%;
+}
+
+#loginPart{
+    margin-top: 10%;
+}

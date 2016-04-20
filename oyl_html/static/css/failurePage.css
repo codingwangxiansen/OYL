@@ -1,0 +1,26 @@
+.failurePagePart{
+    width: 70%;
+    margin-left: 15%;
+    background: #ffffff;
+}
+
+.failurePagePart #failureInfo{
+    margin-left: 30%;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    width: 40%;
+}
+
+.failurePagePart .infoImg{
+    float: left;
+    width: 40%;
+}
+
+.failurePagePart .infoTxt{
+    float: left;
+    width: 60%;
+}
+
+.failurePagePart #registerBtn{
+    color: #006dcc;
+}

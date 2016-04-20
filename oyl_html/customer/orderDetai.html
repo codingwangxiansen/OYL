@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的订单</title>
+    <link href="../static/ace/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../static/ace/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/contentCommon.css">
+    <link rel="stylesheet" href="../static/css/customer/userSetting.css">
+    <link rel="stylesheet" href="../static/css/customer/myOrder.css">
+</head>
+<body>
+<header>
+    <div id="headPart">
+        <div class="headerTop">
+            <div class="container">
+                <P>欢迎来到哦引力，开始您的品牌之路！</P>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <div class="container">
+                <div id="messageAlert">
+                    <img src="../static/img/message.png">
+                    <div id="messageNum">2</div>
+                </div>
+                <div class="navbar-header">
+                    <img src="../static/img/logoWhite.png"><span>哦引力</span>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">我的订单</a></li>
+                        <li  class="active"><a href="#">消息中心</a></li>
+                        <li><a href="#">财务管理</a></li>
+                        <li><a href="#">账号设置</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portraitPart">
+        <img src="../static/img/portrait.png">
+    </div>
+    <div id="userName">
+        leo刘朝
+    </div>
+</header>
+<section>
+    <div class="container">
+        <div class="row orderDetail" id="center">
+            <div class="tabbable orderDetail">
+                <ul class="nav nav-tabs" id="myTab">
+                    <li class="active">
+                        <a data-toggle="tab" href="#order">需求订单</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#offer">需求报价</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#contract">合同</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="order" class="tab-pane fade in active">
+                        <div id="orderInfo">
+                            <div class="row info">
+                                <div class="col-md-4">
+                                    <h4> <i class="fa fa-tag icon"></i>【弦木吉他品牌视觉设计】套餐</h4>
+                                </div>
+                                <div class="col-md-2 littleTitle">
+                                    品牌视觉-套餐服务<span></span>
+                                </div>
+                                <div class="col-md-11">
+                                    <span class="moneyNum">￥30000.00</span><span class="moneyTxt">待报价</span>
+                                </div>
+                                <div class="datePart col-md-11" style="margin-bottom: 3%;">
+                                    <i class="fa fa-clock-o"></i>发布日期：2016-01-01
+                                </div>
+                            </div>
+                            <div class="row orderFlow">
+                                <div class="col-md-12" style="margin-top: 3%">
+                                    <h4>订单跟踪</h4>
+                                </div>
+                                <div class="col-md-12 flowPart">
+                                    <ul>
+                                        <li class="selected"><a>1</a>提交需求<span class="nextIcon"> > </span></li>
+                                        <li class="actived"><a>2</a>平台报价<span class="nextIcon"> > </span></li>
+                                        <li><a>3</a>签署合同<span class="nextIcon"> > </span></li>
+                                        <li><a>4</a>付款<span class="nextIcon"> > </span></li>
+                                        <li><a>5</a>需求受理<span class="nextIcon"> > </span></li>
+                                        <li><a>6</a>交易成功</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="projectDetail">
+                            <div class="title">
+                                订单需求
+                            </div>
+
+                            <div class="ctrl">
+                                <a href="#orderRequest" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="orderRequest">查看详情 <i class="fa fa-chevron-down"></i></a>
+                            </div>
+
+                            <div class="content collapse" id="orderRequest">
+                                <p>所处阶段：<b>已有清晰概念，只需要执行</b></p>
+                                <p>开始时间：<b>马上开始</b></p>
+                                <p>周期：<b>1~2个月</b></p>
+                                <p>风格标签：<b>中国风</b></p>
+                            </div>
+
+                        </div>
+
+                        <div class="projectDetail">
+                            <div class="title">
+                                机构简介
+                            </div>
+
+                            <div class="ctrl">
+                                <a href="#companyInfo" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="companyInfo">点击展开 <i class="fa fa-chevron-down"></i></a>
+                            </div>
+
+                            <div class="content collapse" id="companyInfo">
+                                <p>所处阶段：<b>已有清晰概念，只需要执行</b></p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="offer" class="tab-pane fade">
+                        <div class="infoPart row">
+                            <div class="col-md-12" style="font-size:16px;color: #e9645f;text-align: center;margin-top: 4%">
+                                此报价有效期为2016-05-01，超过时间将自动关闭订单
+                            </div>
+                            <div class="col-md-12 headRow">
+                                <h4>需求报价</h4>
+                            </div>
+                            <div class="col-md-2">
+                                <p style="float: right">需求报价：</p>
+                            </div>
+                            <div class="col-md-10">
+                                <p>50000.00</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p style="float: right">付款比例：</p>
+                            </div>
+                            <div class="col-md-10">
+                                <p>5:3:2</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p style="float: right">建议开始时间：</p>
+                            </div>
+                            <div class="col-md-10">
+                                <p>马上开始</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p style="float: right">周期：</p>
+                            </div>
+                            <div class="col-md-10">
+                                <p>2个月以上</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 headRow">
+                                <h4>需求分析</h4>
+                            </div>
+                            <div class="col-md-12">
+                                <p style="margin-left: 8%;font-weight: bold">首页整体风格与产品特色、产品文化所搭配，具有国际、时尚等气息。要有强烈的视觉冲击，页面布局合理且具备层次感。</p>
+                            </div>
+                            <div class="col-md-12 headRow">
+                                <h4>工作阶段</h4>
+                            </div>
+                            <div class="col-md-2">
+                                <p style="float: right">沟通需求</p>
+                            </div>
+                            <div class="col-md-10">
+                                <p>5日</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p style="float: right">设计理念</p>
+                            </div>
+                            <div class="col-md-10">
+                                <p>5日</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p style="float: right">LOGO设计</p>
+                            </div>
+                            <div class="col-md-10">
+                                <p>5日</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 headRow">
+                                <h4>支付阶段</h4>
+                            </div>
+                            <div class="col-md-2">
+                                <p style="float: right">沟通需求</p>
+                            </div>
+                            <div class="col-md-10">
+                                <p>25000.00</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p style="float: right">设计理念</p>
+                            </div>
+                            <div class="col-md-10">
+                                <p>25000.00</p>
+                            </div>
+                            <div class="col-md-2">
+                                <p style="float: right">LOGO设计</p>
+                            </div>
+                            <div class="col-md-10">
+                                <p>25000.00</p>
+                            </div>
+                            <div class="col-md-6" style="margin-top: 4%;margin-bottom: 8%">
+                                <button class="agreeBtn" style="float: right;">同意报价</button>
+                            </div>
+                            <div class="col-md-6" style="margin-top: 4%;margin-bottom: 8%">
+                                <button class="thinkBtn">我再想想</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="contract" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-md-12 contractTitle" style="text-align: center">
+                                <h1>合同</h1>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="namePart">
+                                    <p><span class="nameLeft">项目名称：LOGO设计</span><span class="nameRight">合同编号：000001</span></p>
+                                </div>
+                            </div>
+                            <div class="contractInfo row">
+                                <div class="col-md-12" style="margin-top: 2%">
+                                    <p style="color: #ff99a8">为了保障您的权利，请<span style="color: #0056e6">完善</span>您的相关信息</p>
+                                </div>
+                                <div class="col-md-12">
+                                    <h3><i></i>工期</h3>
+                                </div>
+                                <div class="col-md-12">
+                                    <div id="table1">
+                                        <p>该需求完成时间为：<span style="font-size: 18px;font-weight: 600">2016-04-01至2016-04-15</span>   共计<span style="font-size: 18px;font-weight: 600">15</span>天</p>
+                                        <table>
+                                            <thead>
+                                            <tr><th><span class="tableLeft">工作阶段</span></th><th><span class="tableRight">工时</span></th></tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr><td><span class="tableLeft"><i></i>需求沟通</span></td><td><span class="tableRight">2日</span></td></tr>
+                                            <tr><td><span class="tableLeft"><i></i>设计理念</span></td><td><span class="tableRight">3日</span></td></tr>
+                                            <tr><td><span class="tableLeft"><i></i>LOGO设计</span></td><td><span class="tableRight">10日</span></td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <h3><i></i>支付方式</h3>
+                                </div>
+                                <div class="row">
+                                    <div class="txtLeft">
+                                        <p style="text-align: right">需求金额：</p>
+                                    </div>
+                                    <div class="txtRight">
+                                        <p>￥10,000.00</p>
+                                    </div>
+                                    <div class="txtLeft">
+                                        <p style="text-align: right">银行开户名：</p>
+                                    </div>
+                                    <div class="txtRight">
+                                        <p>哦引力</p>
+                                    </div>
+                                    <div class="txtLeft">
+                                        <p style="text-align: right">开户银行：</p>
+                                    </div>
+                                    <div class="txtRight">
+                                        <p>中国建设银行</p>
+                                    </div>
+                                    <div class="txtLeft">
+                                        <p style="text-align: right">银行账户：</p>
+                                    </div>
+                                    <div class="txtRight">
+                                        <p>4202154545454545454</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div id="table2" class="row">
+                                        <table>
+                                            <thead>
+                                            <tr><th><span class="tableLeft"></span>工作阶段</th><th><span class="tableRight"></span>支付金额</th></tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr><td><span class="tableLeft"><i></i>需求沟通</span></td><td><span class="tableRight">5000.00</span></td></tr>
+                                            <tr><td><span class="tableLeft"><i></i>设计理念</span></td><td><span class="tableRight">5000.00</span></td></tr>
+                                            <tr><td><span class="tableLeft"><i></i>LOGO设计</span></td><td><span class="tableRight">5000.00</span></td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <h3><i></i>需求分析</h3>
+                                </div>
+                                <div class="col-md-12">
+                                    <P style="margin-left: 5%">首页的整体风格与产品特色、产品文化所搭配，具有国际、时尚等气息，要有强烈的视觉冲击，页面布局具备层次感。</P>
+                                </div>
+                                <div class="col-md-6" style="margin-top: 4%;margin-bottom: 8%">
+                                    <button class="agreeBtn" style="float: right;">我要付款</button>
+                                </div>
+                                <div class="col-md-6" style="margin-top: 5%;margin-bottom: 8%">
+                                    <a style="color:#0056e6 ">合同正本样式</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footBar">
+        <div class="footBarPart1"></div>
+        <div class="footBarPart2"></div>
+    </div>
+    <div class="foot-brand">
+        <div class="container">
+            <div class="row">
+                <div class="link-item item1">
+                    <h5><i></i>微信公众号</h5>
+                    <div><img src="../static/img/weixin_code.jpg"></div>
+                </div>
+                <div class="link-item item2">
+                    <h5>关于</h5>
+                    <div>
+                        <ul>
+                            <li><a>哦引力</a></li>
+                            <li><a>加入我们</a></li>
+                            <li><a>联系我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-item item2">
+                    <h5>合作</h5>
+                    <div>
+                        <ul>
+                            <li><a>您是设计师</a></li>
+                            <li><a>您是设计机构</a></li>
+                            <li><a>年商服务</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-item item2">
+                    <h5>声明</h5>
+                    <div>
+                        <ul>
+                            <li><a>作品版权</a></li>
+                            <li><a>免责声明</a></li>
+                            <li><a>服务条款</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-item item2">
+                    <h5>导航</h5>
+                    <div>
+                        <ul>
+                            <li><a>服务项目</a></li>
+                            <li><a>客服中心</a></li>
+                            <li><a>天使用户</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-item item3">
+                    <h5>联系方式</h5>
+                    <div>
+                        <ul>
+                            <li>服务热线：400-666-999</li>
+                            <li>QQ：34969830&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:vip@kppw.com</li>
+                            <li>地址：湖北省武汉市洪山区华工孵化中心9楼</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footBarBottom">
+        <div class="footBarPart1"><p>conpright  2015-2025 oyinli.com 版权所有 鄂ICP备11119999号-19</p></div>
+        <div class="footBarPart2"></div>
+    </div>
+</footer>
+<script src="../static/js/jquery-2.0.3.min.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+</body>
+</html>

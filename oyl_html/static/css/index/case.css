@@ -1,0 +1,56 @@
+section .topCondition{
+    width: 23%;
+    margin-left: 1%;
+    height: 30px;
+    background: #ffffff;
+    border: 1px solid;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+section #keyWordPart{
+    border: solid 1px;
+    float: right;
+    margin-right: 1%;
+    background: #e7e7e7;
+}
+
+section #keyWordPart input{
+    background: #e7e7e7;
+}
+
+section{
+    margin-top: 4%;margin-bottom: 8%;
+}
+
+section #keyWord{
+    border: none;
+    height: 30px;
+}
+
+section .conditionPart{
+    border-bottom: solid 1px;
+}
+
+section .infoDiv{
+    width: 24%;
+    float: left;
+    margin-right: 1.3%;
+    margin-top:2%;
+}
+
+section .infoDiv.last{
+    margin-right: 0;
+}
+
+section .infoDiv .timePart{
+    float: right;
+    margin-right: 5px;
+}
+
+.selectPart{
+    margin-bottom:2% ;
+}
+
+ul.pagination{
+    margin-left: 40%;
+    margin-top: 4%;
+}

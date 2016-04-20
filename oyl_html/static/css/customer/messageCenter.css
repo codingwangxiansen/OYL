@@ -1,0 +1,43 @@
+.messageCenter .contentRight{
+    background: none;
+}
+
+.messageCenter .messageRow{
+    background: #ffffff none repeat scroll 0 0;
+    border-bottom: medium solid;
+    height: 87.5px;
+    margin-bottom: 25px;
+}
+
+.messageCenter .messageLogo{
+    float: left;
+}
+
+.messageCenter .messageLogo img{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 22px;
+}
+
+.messageCenter .messageContent{
+    float: left;
+    padding-top: 22px;
+}
+
+.messageCenter .btnRight{
+    float: right;
+    padding-right: 30px;
+    padding-top: 22px;
+}
+
+.messageCenter .btnRight a{
+    color: #88abe9;
+}
+
+.messageCenter .contentRight ul{
+    margin-left: 300px;
+}
+
+.messageCenter .messageRow.readable{
+    border-bottom: solid #efbcbf;
+}

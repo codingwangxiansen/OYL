@@ -1,0 +1,88 @@
+#caseDetail .titlePart h4{
+    font-weight: bold;
+}
+
+#caseDetail .titlePart{
+    margin-bottom: 1%;
+}
+
+#caseDetail .titlePart a{
+    margin-right: 5px;
+}
+
+#caseDetail .centerLeftPart{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+#caseDetail .centerLeftPart #detailInfo{
+    width: 90%; margin-left: 5%;
+}
+
+#caseDetail .centerLeftPart .leftInfo{
+    margin-top:3% ;
+}
+
+#caseDetail .centerLeftPart .leftInfo img{
+    width: 100%;
+}
+
+#caseDetail .centerLeftPart .linkPart{
+    margin-top:5% ;
+    margin-bottom: 2%;
+}
+
+#caseDetail .centerRightPart{
+    background: #dfdfdf none repeat scroll 0 0;
+    margin-left:2%;
+}
+
+#caseDetail .centerRightPart hr{
+    border-top: 1px solid #b2b2b2;
+    height: 1px;
+}
+
+#caseDetail .centerRightPart form{
+    background: #ffffff;
+    margin-bottom:40% ;
+}
+
+#caseDetail .centerRightPart form input{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 0px;
+}
+
+#caseDetail .centerRightPart form select{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 0px;
+    background: #ebebeb;
+}
+
+#caseDetail .centerRightPart form textarea{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 0px;
+}
+
+#caseDetail .centerRightPart form #name{
+    margin-top:15px ;
+}
+
+#caseDetail .centerRightPart #submitBtn{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    color: #ffffff;
+    background: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+section{
+    margin-top: 4%;margin-bottom: 8%;
+}

@@ -1,0 +1,222 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,legend,button
+form,fieldset,input,textarea,p,blockquote,th,td {
+    　　padding: 0;
+    　　margin: 0;
+    font-family: "微软雅黑";
+}
+/* 酌情修改 */
+body {
+    background:#f1f1f1;color:#333;font-size:12px;font-family:"微软雅黑","SimSun","宋体","Arial Narrow";
+}
+
+/* 缩写，图片等无边框 */
+fieldset,img,abbr,acronym {border: 0 none;}
+abbr,acronym {font-variant: normal;}
+legend {color:#000;}
+
+/* 清除特殊标记的字体和字号 */
+address,caption,cite,code,dfn,em,strong,th,var {
+    　　font-weight: normal;
+    　　font-style: normal;
+}
+
+/* 上下标 */
+sup {vertical-align: text-top;}
+sub {vertical-align: text-bottom;}
+
+/* 设置表格的边框被合并为一个单一的边框, 指定分隔边框模型中单元格边界之间的距离为0*/
+table {
+    　　border-collapse: collapse;
+    　　border-spacing: 0;
+}
+
+/* 表格标题及内容居左显示 */
+caption,th {text-align: left;}
+input,img,select {vertical-align:middle;}
+
+/* 清除列表样式 */
+ol,ul {list-style: none;}
+
+/* 输入控件字体 */
+input,button,textarea,select,optgroup,option {
+    font-family:inherit;
+    font-size:inherit;
+    font-style:inherit;
+    font-weight:inherit;
+}
+
+/* 标题元素样式清除 */
+h1,h2,h3,h4,h5,h6 {
+    　　font-weight: normal;
+    　　font-size: 100%;
+}
+
+/* 链接样式，颜色可酌情修改 */
+del,ins,a {text-decoration:none!important;color: #ffffff}
+a:link {color: #ffffff}
+a:visited {color:#800080;}
+a:hover,a:active,a:focus {color:#d02646!important; text-decoration:underline;}
+
+/* 鼠标样式 */
+input[type="submit"] {cursor: pointer;}
+button {cursor: pointer;}
+input::-moz-focus-inner { border: 0; padding: 0;}
+
+.container{
+    width: 1200px;
+}
+
+.clear {clear:both;}
+
+.header-top{
+    background: #101010;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    color: #adb8c0;
+}
+
+.logoLeft{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#logoImg{
+    width: 30%;
+    float: left;
+    margin-top:8%;
+}
+
+#logoTxt{
+    width: 70%;
+    float: left;
+    border-right: solid 1px;
+    margin-top: 10%;
+}
+
+#logoTxt span{
+    display: inline-block;
+    margin-top: 3%;
+}
+
+.part1{
+    padding-top: 2%;
+}
+
+.registerRight{
+    width: 50%;
+    float: left;
+    font-size: 18px;
+    margin-top: 4%;
+}
+
+.registerRight a{
+    color:#101010;
+    margin-left: 15%;
+}
+
+.part2{
+    padding-top: 6%;
+}
+
+
+/*脚部*/
+.foot{
+    height:245px;
+    background: #d02646;
+    color: #fff;
+    overflow: hidden;
+}
+.foot .foot-conter{
+    padding-top: 20px;
+    line-height: 34px;;
+}
+
+.footBar{
+    margin-top: 8%;
+}
+.foot-brand{
+    padding: 26px;
+    color:#adadad;
+    background:#101010;
+}
+.foot-top a{
+    color:#666666;
+}
+
+/*底部*/
+.link-item{
+    float: left;
+}
+
+.link-item ul{
+    line-height: 2;
+}
+
+.item1{
+    width: 25%;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.item2{
+    width: 10%;
+    color: #ffffff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.item3{
+    width: 35%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.link-item h5{
+    margin-bottom: 10px;
+}
+
+.link-item ul{
+    margin: 0 0 0 0;
+}
+
+.footBar{
+    height: 15px;
+    border: none;
+}
+
+.footBarBottom{
+    height: 45px;
+    text-align: center;
+}
+
+.footBarBottom p{
+    margin-top: 15px;
+    color:#adb8c0;
+}
+
+.footBarPart1{
+    background: -webkit-gradient(linear, 0 0, 50% 0, from(#000000), to(#f1f1f1 )); /** Chrome Safari **/
+    background: -moz-linear-gradient(left, #000000, #f1f1f1 ); /** FireFox **/
+    background: -o-linear-gradient(left, #000000, #f1f1f1 );  /** Opear **/
+    background: -ms-linear-gradient(#000000 0%,#f1f1f1  100%);  /** IE9 IE10 **/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000',endColorstr='#f1f1f1 ',grandientType=1); /** IE7 **/
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000',endColorstr='#f1f1f1 ',grandientType=1); /** IE8 **/
+    height: 100%;
+    width:50%;
+    float: left;
+}
+
+.footBarPart2{
+    background: -webkit-gradient(linear, 0 0, 50% 0, from(#f1f1f1), to(#000000 )); /** Chrome Safari **/
+    background: -moz-linear-gradient(left, #f1f1f1, #000000 ); /** FireFox **/
+    background: -o-linear-gradient(left, #f1f1f1, #000000 );  /** Opear **/
+    background: -ms-linear-gradient(#f1f1f1 0%,#000000  100%);  /** IE9 IE10 **/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1',endColorstr='#000000 ',grandientType=1); /** IE7 **/
+    -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1',endColorstr='#000000 ',grandientType=1); /** IE8 **/
+    height: 100%;
+    width:50%;
+    float: left;
+}
